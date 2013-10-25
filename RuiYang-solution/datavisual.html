@@ -1,0 +1,16 @@
+<html>
+   <head>
+      <title>Part2 - DataVisualization</title>
+      <script src="./solution/shapes.js"></script>
+      <script src="./solution/datavisual.js"></script>
+      <script src="../data/co2.js"></script>
+   </head>
+   <body>    
+      <svg id="container" width="1200" height="600" ></svg>
+      <h>Part2 - DataVisualization</h>
+      <script type="text/javascript">
+        var svg = document.getElementById('container');
+        var plot = new Plot(svg,co2);
+      </script>
+   </body>
+</html>
